@@ -1,0 +1,27 @@
+/* News.css */
+.container{
+    background-color: rgb(16, 62, 97);
+}
+
+.news-container {
+    margin: 0 auto;
+  }
+  
+  .news-container h1 {
+    font-size: 2rem;
+    white-space: nowrap; 
+  }
+  
+  .news-item {
+    width: 200px;
+  }
+  
+  .news-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .news-item p {
+    margin-bottom: 0;
+  }
+  

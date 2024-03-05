@@ -1,0 +1,77 @@
+.background-video {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align:start ;
+    max-width: 40%;
+  }
+  
+  /* Optional: Add styles for your content */
+  .content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(238, 236, 234);
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+
+  .button-container {
+    position: absolute;
+    bottom: 35%; /* Adjust the distance from the bottom */
+    left: 38%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .content {
+    transform: translate(-50%, -50%) translateY(-30%);
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      transform: translate(-50%, -50%) translateY(-15%);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .content {
+      transform: translate(-50%, -50%) translateY(-10%);
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .content {
+      transform: translate(-50%, -50%) translateY(-5%);
+    }
+  }
+  
